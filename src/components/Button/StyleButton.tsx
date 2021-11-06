@@ -7,8 +7,8 @@ import { ButtonProps, scales, variants } from "./types";
 const ButtonStyle = styled(StyledButton)`
   /* box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.2); */
   border-radius: 6px;
-  background-image: linear-gradient(to left, #ffe505, #ffc81c 50%);
-  color: #010033;
+  background-color: rgba(220, 80, 255, 0.3);
+  color: rgb(255, 255, 255);
 `
 
 const Button = <E extends ElementType = "button">(props: ButtonProps<E>): JSX.Element => {
